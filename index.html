@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="salando">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/styles.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+  <section class="relative">
+    <main class="font-plus-jakarta-sans px-4 pt-6 pb-24 font-medium">
+      <header class="flex justify-between items-end pb-6">
+        <section class="flex text-very-dark-blue items-end gap-2">
+          <h1 class="text-2xl font-extrabold">
+            Notifications
+          </h1>
+          <div class="rounded-md bg-blue-main text-white px-3 py-1 font-extrabold text-xl">3</div>
+        </section>
+        <section class="text-lg text-grayish-blue cursor-pointer transition-colors hover:text-blue-main">
+          Mark all as read
+        </section>
+      </header>
+      <section class="flex flex-col gap-3">
+        <article class="flex p-4 gap-3 bg-light-grayish-blue-2 rounded-md text-dark-grayish-blue tracking-wider">
+          <img src="./assets/images/avatar-mark-webber.webp" alt="avatar Mark Webber">
+          <p>
+            <b class="font-extrabold text-very-dark-blue cursor-pointer transition-colors hover:text-blue-main">Mark Webber</b>
+            reacted to your recent post
+            <b class="font-extrabold transition-colors cursor-pointer hover:text-blue-main">My first tournament today!</b>
+            <span class="inline-block bg-red-main p-2 rounded-full"></span>
+            <br>
+            <span class="text-grayish-blue">1m ago</span>
+          </p>
+        </article>
+        <article class="flex p-4 gap-3 bg-light-grayish-blue-2 rounded-md text-dark-grayish-blue tracking-wider">
+          <img src="./assets/images/avatar-angela-gray.webp" alt="avatar Angela Gray">
+          <p>
+            <b class="font-extrabold text-very-dark-blue cursor-pointer transition-colors hover:text-blue-main">Angela Gray</b>
+            followed you
+            <span class="inline-block bg-red-main p-2 rounded-full"></span>
+            <br>
+            <span class="text-grayish-blue">
+              5m ago
+            </span>
+          </p>
+        </article>
+        <article class="flex p-4 gap-3 bg-light-grayish-blue-2 rounded-md text-dark-grayish-blue tracking-wider">
+          <img src="./assets/images/avatar-jacob-thompson.webp" alt="avatar Jacob Thompson">
+          <p>
+            <b class="font-extrabold text-very-dark-blue cursor-pointer transition-colors hover:text-blue-main">Jacob Thompson</b>
+            has joined your group
+            <strong class="text-blue-main font-extrabold cursor-pointer">
+              Chess Club
+            </strong>
+            <span class="inline-block bg-red-main p-2 rounded-full"></span>
+            <br>
+            <span class="text-grayish-blue">
+              1 day ago
+            </span>
+          </p>
+        </article>
+        <article class="flex p-4 gap-3 rounded-md text-dark-grayish-blue">
+          <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="avatar rizky hasanuddin"
+            class="w-[90px] h-[90px]">
+          <section class="flex flex-col gap-3">
+            <section class="tracking-wider">
+              <b class="font-extrabold text-very-dark-blue cursor-pointer transition-colors hover:text-blue-main">
+                Rizky Hasanuddin
+              </b>
+              sent you a private message
+              <br>
+              <span class="text-grayish-blue">5 days ago</span>
+            </section>
+            <article class="cursor-pointer border-2 p-4 border-light-grayish-blue-1 rounded-md box-border transition-colors hover:bg-light-grayish-blue-1">
+              hello, thanks for setting up the chess club. i've been a member for a few weeks now and
+              i'm already having lots of fun and improving my game.
+            </article>
+          </section>
+        </article>
+        <article class="flex p-4 rounded-md text-dark-grayish-blue tracking-wider gap-3">
+          <img src="./assets/images/avatar-kimberly-smith.webp" alt="avatar Kimberly Smith"
+            class="flex-grow-0 flex-shrink-0 h-[90px]">
+          <p>
+            <b class="font-extrabold text-very-dark-blue cursor-pointer transition-colors hover:text-blue-main">
+              Kimberly Smith
+            </b>
+            commented on your picture
+            <br>
+            <span class="text-grayish-blue">
+              1 week ago
+            </span>
+          </p>
+          <img src="./assets/images/image-chess.webp" alt="chess" class="flex-shrink-0 flex-grow-0 h-[90px] cursor-pointer transition-all box-border rounded-3xl border-light-grayish-blue-1 hover:border-4">
+        </article>
+        <article class="flex p-4 rounded-md text-dark-grayish-blue tracking-wider gap-3">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="avatar Nathan Peterson" class="w-[90px] h-[90px]">
+          <p>
+            <b class="font-extrabold text-very-dark-blue cursor-pointer transition-colors hover:text-blue-main">
+              Nathan Peterson
+            </b>
+            reacted to your recent post
+            <strong class="cursor-pointer font-extrabold transition-colors hover:text-blue-main">
+              5 end-game strategies to increase your win rate
+            </strong>
+            <br>
+            <span class="text-grayish-blue">
+              2 weeks ago
+            </span>
+          </p>
+        </article>
+        <article class="flex p-4 rounded-md text-dark-grayish-blue tracking-wider gap-3">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="avatar de Anna Kim" class="w-[90px] h-[90px]">
+          <p>
+            <b class="font-extrabold text-very-dark-blue cursor-pointer transition-colors hover:text-blue-main">
+              Anna Kim
+            </b>
+            left the group
+            <strong class="font-extrabold text-blue-main cursor-pointer">
+              Chess Club
+            </strong>
+            <br>
+            <span class="text-grayish-blue">
+              2 weeks ago
+            </span>
+          </p>
+        </article>
+      </section>
+    </main>
+    <p class="absolute bottom-5 left-1/2 -translate-x-1/2 text-very-dark-blue font-extrabold text-center">
+      Desafío de <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="transition-colors text-blue-main hover:text-red-main">Frontend Mentor</a>.
+      <br>
+      Codificado por <a href="https://github.com/SaulOrlando" target="_blank" class="transition-all text-blue-main hover:text-red-main">Salando</a>.
+    </p>
+  </section>
+</body>
+
+</html>
