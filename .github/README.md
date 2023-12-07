@@ -27,6 +27,8 @@ diferentes tipos de pantalla
 
 ![Mobile](../assets/screenshots/mobile.png)
 
+1440px
+
 ![Desktop](../assets/screenshots/Desktop.png)
 
 ## Indice
